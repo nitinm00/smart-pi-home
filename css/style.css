@@ -1,0 +1,38 @@
+.lightson {
+       width: 200px;
+       height: 200px;
+       margin: 50px;
+       background: url("images/bulb_on.png") no-repeat;
+       background-size: 200px 200px;
+}
+.lightson:hover {
+       width: 200px;
+       height: 200px;
+       margin: 50px;
+       background: url("images/bulb_hover.png") no-repeat;
+       background-size: 200px 200px;
+}
+.lightsoff {
+       width: 200px;
+       height: 200px;
+       margin: 50px;
+       background: url("images/bulb_off.png") no-repeat;
+       background-size: 200px 200px;
+}
+.lightsoff:hover {
+       width: 200px;
+       height: 200px;
+       margin: 50px;
+       background: url("images/bulb_hover.png") no-repeat;
+       background-size: 200px 200px;
+}
+#fanbtn {
+   width: 250px;
+   height: auto;
+   margin: 50px;
+}
+#fanbtn:active {
+   width: 250px;
+   height: auto;
+   margin: 50px;
+   content:url("images/fan_on.gif");
