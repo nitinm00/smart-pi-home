@@ -4,9 +4,23 @@
     "express": "^4.17.1",
     "hbs": "^4.2.0",
     "nodemon": "^2.0.15",
-    "rpio": "^2.4.2"
+    "rpio": "^2.2.0"
   },
   "scripts": {
     "server": "nodemon src/app.js"
-  }
+  },
+  "name": "smart-pi-home",
+  "description": "A small web application that controls a light and fan switch hooked up to a Raspberry Pi IC.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitinm00/smart-pi-home.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nitinm00/smart-pi-home/issues"
+  },
+  "homepage": "https://github.com/nitinm00/smart-pi-home#readme"
 }
