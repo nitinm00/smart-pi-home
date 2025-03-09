@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 import RPi.GPIO as gpio
 
-channel = 23
-gpio.setwarnings(False)
-gpio.setmode(gpio.BCM)
+channel = 18
+gpio.setwarnings(True)
+gpio.setmode(gpio.BOARD)
 gpio.setup(channel, gpio.OUT)
 is_on = gpio.input(channel)
 

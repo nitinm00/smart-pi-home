@@ -1,18 +1,12 @@
 {
-  "dependencies": {
-    "bootstrap": "^5.1.3",
-    "express": "^4.17.1",
-    "hbs": "^4.2.0",
-    "nodemon": "^2.0.15",
-    "rpio": "^2.2.0"
-  },
+  "name": "smart-pi-home",
+  "version": "1.0.0",
+  "description": "A small web application that controls a light and fan switch hooked up to a Raspberry Pi IC.",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon src/app.js"
   },
-  "name": "smart-pi-home",
-  "description": "A small web application that controls a light and fan switch hooked up to a Raspberry Pi IC.",
-  "version": "1.0.0",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nitinm00/smart-pi-home.git"
@@ -22,5 +16,16 @@
   "bugs": {
     "url": "https://github.com/nitinm00/smart-pi-home/issues"
   },
-  "homepage": "https://github.com/nitinm00/smart-pi-home#readme"
+  "homepage": "https://github.com/nitinm00/smart-pi-home#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "express": "^4.17.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.1",
+    "rpio": "^2.4.2",
+    "socket.io-client": "^4.8.1"
+  }
 }
