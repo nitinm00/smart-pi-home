@@ -1,6 +1,6 @@
 # smart-pi-home
 
-A small web application that controls a light and fan switch hooked up to a Raspberry Pi IC.
+A small web application that controls a light and fan switch hooked up to a Raspberry Pi.
 
 To view on local server:
 
